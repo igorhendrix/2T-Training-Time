@@ -8,8 +8,7 @@ A C++ Project that focus at the time that the user have to do a workout, conside
 - ``Paradigma de orientação a objetos``
 
 # Autor
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/178747837?s=96&v=4" width=115><br><sub>Igor Hendrix</sub>](https://github.com/igorhendrix)|
-
+- Igor Hendrix
 
 NO AI USED, AT ANY TIME.
 
