@@ -4,7 +4,7 @@
 #include <fstream>
 #include <iostream>
 #include <sstream>
-atributosn
+
 using namespace std;
 
 class User {

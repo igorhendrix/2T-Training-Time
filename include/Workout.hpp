@@ -22,16 +22,13 @@ class Workout {
 
     string _muscle;
     vector<Exercises> _exercises;
-    int rotation; // How many exercises the program can do rotation 
+    int _rotation; // How many exercises the program can do rotation 
 
     public:
 
-    void addWorkout(string _muscle, int rotation);
+    void addWorkout(string muscle, int rotation);
 
-
-
-
-}
+};
 
 
 
