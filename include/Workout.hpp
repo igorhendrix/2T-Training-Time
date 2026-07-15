@@ -4,8 +4,6 @@
 #include <iostream>
 #include <string>
 #include <vector>
-
-
 using namespace std;
 
 // Struct that contains the exercises from workout
