@@ -5,7 +5,7 @@ void Workout::addWorkout(string muscle, int rotation){
 
     cin >> newExercises.exName;
     cin >> newExercises.series;
-    cin >> newExercises.repetition;
+    // cin >> newExercises.repetition; ------- FOR THE FUTURE
     cin >> newExercises.maxRest;
     cin >> newExercises.minRest;
 
@@ -13,6 +13,12 @@ void Workout::addWorkout(string muscle, int rotation){
     _exercises.push_back(newExercises);
 }
 
-void Workout::calculateWorkout(){
+void Workout::calculateWorkout(int avTime){
+    // input the avTime (Avaliable time) at the funcion call
+    // see the exercises for today
+    // by the avTime, calculate the rest of each exercise
+    // FIRST IDEA OF LOGIC: get the total and do a proportional calculus, basically the same to do some DEMAND PLANS
+    // show the exercises with the time of each one
+    // 
     // to do
 }
