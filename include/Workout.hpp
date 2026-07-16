@@ -9,6 +9,7 @@ using namespace std;
 // Struct that contains the exercises from workout
 struct Exercises {
     string exName;
+    int series;
     int repetition;
     int maxRest;
     int minRest;

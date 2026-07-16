@@ -4,6 +4,7 @@ void Workout::addWorkout(string muscle, int rotation){
     Exercises newExercises;
 
     cin >> newExercises.exName;
+    cin >> newExercises.series;
     cin >> newExercises.repetition;
     cin >> newExercises.maxRest;
     cin >> newExercises.minRest;
