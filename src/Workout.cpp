@@ -12,3 +12,7 @@ void Workout::addWorkout(string muscle, int rotation){
     // Add to the vector that is in the Workout class
     _exercises.push_back(newExercises);
 }
+
+void Workout::calculateWorkout(){
+    // to do
+}

@@ -27,6 +27,7 @@ class Workout {
 
     void addWorkout(string muscle, int rotation);
 
+    void calculateWorkout(); // in development
 };
 
 
