@@ -6,9 +6,9 @@ void Workout::addWorkout(string muscle, int rotation){
     cin >> newExercises.exName;
     cin >> newExercises.series;
     // cin >> newExercises.repetition; ------- FOR THE FUTURE
-    cin >> newExercises.maxRest;
-    cin >> newExercises.minRest;
-
+    cin >> newExercises.time_maxRest;
+    cin >> newExercises.time_minRest;
+    cin >> newExercises.time_finalRest;
     // Add to the vector that is in the Workout class
     _exercises.push_back(newExercises);
 }
