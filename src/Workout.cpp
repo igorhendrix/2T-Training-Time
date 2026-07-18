@@ -19,6 +19,7 @@ void Workout::calculateWorkout(int avTime){
     // by the avTime, calculate the rest of each exercise
     // FIRST IDEA OF LOGIC: get the total and do a proportional calculus, basically the same to do some DEMAND PLANS
     // show the exercises with the time of each one
-    // 
-    // to do
+
+    cout << "Please insert the avaliable time for today's Workout: " << endl;
+
 }
