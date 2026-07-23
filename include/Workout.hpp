@@ -11,9 +11,10 @@ struct Exercises {
     string exName;
     int series;
     int repetition;
+    int time_execution; // execution time of 1 series
     int time_maxRest;
     int time_minRest;
-    int time_finalRest; // the rest after all exercises
+    int time_finalRest; // the rest after all series
 };
 
 // Class Workout can have the amount of exercises the user wants

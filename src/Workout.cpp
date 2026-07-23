@@ -5,8 +5,11 @@ void Workout::addWorkout(string muscle, int rotation){
     cout << "Exercise's name: ";
     cin >> newExercises.exName;
 
-    cout << "Exercise's series: ";
+    cout << "Exercise's number of series: ";
     cin >> newExercises.series;
+
+    cout << "Exercise's execution time: ";
+    cin >> newExercises.time_execution;
 
     // cin >> newExercises.repetition; ------- FOR THE FUTURE
     cout << "Exercise's maximum rest time: ";
