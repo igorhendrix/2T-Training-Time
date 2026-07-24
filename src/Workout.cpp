@@ -8,6 +8,9 @@ void Workout::addWorkout(string muscle, int rotation){
     cout << "Exercise's number of series: ";
     cin >> newExercises.series;
 
+    cout << "Exercise's number of repetition: ";
+    cin >> newExercises.repetition;
+
     cout << "Exercise's execution time: ";
     cin >> newExercises.time_execution;
 
@@ -32,4 +35,11 @@ void Workout::calculateWorkout(int avTime){
     // FIRST IDEA OF LOGIC: get the total and do a proportional calculus, basically the same to do some DEMAND PLANS
     // show the exercises with the time of each one
 
+    int max_totalTime, min_totalTime;
+
+    max_totalTime = (_exercises[0].repetition * _exercises[0].time_execution) +
+                    ((_exercises[0].repetition - 1) * _exercises[0].time_maxRest) + _exercises[0].time_finalRest;
+
+    min_totalTime = (_exercises[0].repetition * _exercises[0].time_execution) +
+                    ((_exercises[0].repetition - 1) * _exercises[0].time_minRest) + _exercises[0].time_finalRest;
 }
